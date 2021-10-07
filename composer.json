@@ -1,0 +1,26 @@
+{
+    "description": "Some extensions classes/services to simplify build api",
+    "homepage": "https://github.com/eXtalionLab/api-platform-extensions-bundle",
+    "name": "extalion/api-platform-extensions-bundle",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "keywords": ["symfony", "api-platform", "tools", "extensions"],
+    "authors": [
+        {
+            "name": "Damian Glinkowski",
+            "homepage": "https://github.com/d0niek"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "api-platform/core": "^2.6",
+        "doctrine/orm": "^2.0",
+        "symfony/http-foundation": "^5.3",
+        "symfony/http-kernel": "^5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Extalion\\ApiPlatformExtensionsBundle\\": "src/"
+        }
+    }
+}

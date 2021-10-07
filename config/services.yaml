@@ -1,0 +1,17 @@
+
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+
+    Extalion\ApiPlatformExtensionsBundle\Controller\CustomCollectionOperation:
+        arguments:
+            $extensions: !tagged api_platform.doctrine.orm.query_extension.collection
+        public: true
+
+    Extalion\ApiPlatformExtensionsBundle\Controller\CustomItemOperation:
+        arguments:
+            $extensions: !tagged api_platform.doctrine.orm.query_extension.item
+        public: true
+
+    Extalion\ApiPlatformExtensionsBundle\Controller\CustomOperation: ~
