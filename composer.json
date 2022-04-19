@@ -15,8 +15,8 @@
         "php": ">=7.1",
         "api-platform/core": "^2.6",
         "doctrine/orm": "^2.0",
-        "symfony/http-foundation": "^5.3",
-        "symfony/http-kernel": "^5.3"
+        "symfony/http-foundation": "^5.3 | ^6.0",
+        "symfony/http-kernel": "^5.3 | ^6.0"
     },
     "autoload": {
         "psr-4": {
